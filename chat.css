@@ -1,0 +1,35 @@
+
+html, body, #wrapper {height: 100%; margin: 0; padding: 0; }
+html, body, div, input, textarea, p {font: 14px/20px "Segoe UI Web Light","Segoe UI Light","Segoe UI Web Regular","Segoe UI","Segoe UI Symbol","Helvetica Neue",Arial;}
+
+h3 {font-weight: normal; font-size: 20px; line-height: 30px; height: 30px; padding: 0 20px;}
+a {color: #0072C6; text-decoration: none}
+p {margin: 0;}
+
+#wrapper {width: 600px; margin: 0 auto; border-size: 0 1px; border: 1px solid #f0f0f0; border-width: 0 1px; background-color: #f0f0f0}
+#main {float: left; width: 400px; height: 100%; margin: 0; padding: 0; background-color: #fff}
+#side {float: right; width: 200px; height: 100%; }
+#join {position: absolute;; width: 360px; top: 60px; bottom: 0; padding: 0 20px; z-index: 1; background-color: #fff}
+#content {position: absolute; width: 380px; top: 60px; bottom: 100px; padding: 0 10px; overflow: hidden; }
+#input {position: absolute; bottom: 0; width: 400px; height: 80px; text-align: center}
+#list {position: absolute; width: 160px; top: 60px; bottom: 60px; padding: 0 20px; overflow-y: auto;}
+#footer {position: absolute;width: 160px; bottom: 8px; padding: 0 20px; line-height: 20px; }
+
+#txt_input {border: 1px solid #BABABA; padding: 10px; width: 340px; margin: 10px auto; outline:none；resize: none;}
+
+#txt_nick {border: 1px solid #BABABA; padding: 5px 10px; width: 200px; }
+#btn_join {border: 1px solid #BABABA; padding: 5px 10px; width: 60px; background-color: #E4E4E4}
+#msg_list {position: relative;list-style-type: none; margin: 0; padding: 0;}
+#msg_list li {position: relative; width: 340px; padding: 4px 10px 0 10px; margin-left: 10px; clear: both; margin: 10px}
+#msg_list li .msg {line-height: 20px; margin-bottom: 2px}
+#msg_list li.sent {background-color: #E4E4E4}
+#msg_list li.recv {background-color: #0072C6; color: #fff;}
+#msg_list li.sys {padding: 2px; margin: 5px 10px; color: #666;}
+#msg_list li .meta {line-height: 16px; padding-bottom: 8px; text-align: right; opacity: .7;}
+#msg_list li .pointer {position: absolute; height: 0; width: 0; bottom: 50%; border-top-style: solid; border-top-width: 10px; content: "";}
+#msg_list li .sent_pointer {right: -10px; border-top-color: #E4E4E4; border-right-color: transparent; border-right-style: solid; border-right-width: 10px;}
+#msg_list li .recv_pointer {left: -10px; border-top-color: #0072C6; border-left-color: transparent; border-left-style: solid; border-left-width: 10px;}
+
+#online_list {list-style-type: none; margin: 0; padding: 0}
+#online_list li {position: relative; list-style-type: 20px; margin-bottom: 8px;}
+#online_list li .hl {width: 20px; background-color: #0072C6; fonts-size :1px; line-height: 1px; height: 1px;}

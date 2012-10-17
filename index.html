@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="jquery-1.8.2.min.js"></script>
+        <script src="client.js"></script>
+        <script src="chat.js"></script>
+        <link type="text/css" rel="StyleSheet" href="font.css">
+        <link type="text/css" rel="StyleSheet" href="chat.css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="main">
+                <h3 id="labl_join">Join</h3>
+                <div id="join">
+                    <input type="text" id="txt_nick" value="" required="required" placeholder="name"/> <input type="button" id="btn_join" value="Ok" /> 
+                </div>
+                <div id="content">
+                    <ul id="msg_list">                
+                    </ul>
+                </div>
+                <div id="input">
+                    <textarea placeholder="Send a message" id="txt_input" ></textarea>
+                </div>
+            </div>
+            <div id="side">
+                <h3>Online</h3>
+                <div id="list">
+                    <ul id="online_list">
+                    </ul>
+                </div>
+                <div id="footer">
+                    <p><a href="http://weibo.com/deleted" target="_blank">@legend</a></p>
+                    <p><a href="http://resmx.com" target="_blank">resmx.com</a> node.js</p>
+                <div>
+            </div>
+        </div>
+    </body>
+</html>
