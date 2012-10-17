@@ -1,12 +1,12 @@
-<h4>chat demo</h4>
+<p>node.js server push</p>
+<p>http long polling</p>
+<p>more info: <a href="http://www.ugia.cn/?p=207" target="_blank">http://www.ugia.cn/?p=207</a></p>
 
-<ul>
-    <li>node.js server push</li>
-    <li>http long polling</li>
-</ul>
+<p>
+    demo: <a href="http://resmx.com:8001" target="_blank">http://resmx.com:8001</a>
+</p>
 
-<h4>demo</h4>
-<a href="http://resmx.com:8001" target="_blank">http://resmx.com:8001</a>
-
-<h4>screenshoot</h4>
-<img src="http://www.ugia.cn/wp-data/chat.png" />
+<p>
+    screenshoot: <br />
+    <img src="http://www.ugia.cn/wp-data/chat.png" width="50%" border="1"/>
+</p>
